@@ -1,0 +1,12 @@
+$('p').css({"color": "red", "font-size": "400%"});
+
+$('.capitulo').find('img').attr("src","https://codeacamp.s3.amazonaws.com/uploads/post/photo/10/large_Codeacamp_logo_blog_y_facebook.png");
+
+$('.capitulo').find('img').animate({
+    width: "50%",
+    borderWidth: "5px"
+  }, 1500 );
+
+$( "body" ).on( "click", "p", function() {
+  alert( $( this ).text() );
+});
